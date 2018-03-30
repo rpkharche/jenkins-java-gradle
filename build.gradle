@@ -3,3 +3,9 @@ task hello {
 		println 'Hello World'
 	}
 }
+
+task upper << {
+	String expString = 'Ravindra'
+	println 'Original:' + expString
+	println 'Upper Case:' + expString.toUpperCase()
+}
