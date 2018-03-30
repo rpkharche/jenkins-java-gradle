@@ -9,3 +9,8 @@ task upper << {
 	println 'Original:' + expString
 	println 'Upper Case:' + expString.toUpperCase()
 }
+task count << {
+	4.times{
+		print "$it"
+	}
+}
