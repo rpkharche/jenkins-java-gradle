@@ -14,3 +14,9 @@ task count << {
 		print "$it"
 	}
 }
+task tokenizeName << {
+	String name = "Ravindra"
+	name.each(){
+		println "$it"
+	}
+}
